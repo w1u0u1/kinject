@@ -6,5 +6,5 @@ Kernel shellcode injector
 vs2019 + cpp + wdk
 
 # usage(64-bit only)
-kdu -map sys.sys
+kdu -map sys.sys  
 kinject -f shellcode_full_path -p pid
